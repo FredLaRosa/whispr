@@ -1,19 +1,16 @@
 Package: whispr
 Title: A Package To Analyze Crytpo Data
 Version: 0.0.0.9000
-Authors@R: 
-  c(
-  person(given = 'Frédéric', 
-    family = 'La Rosa', 
-    email = 'larosafrederic@gmail.com', 
-    role = c('cre', 'aut')),
-  person(given = "Arthur",
-    family = "Bréant",
-    email = "breant.arthur@gmail.com"),
-    role = c('cre', 'aut')
+Authors@R: c(
+    person("Frédéric", "La Rosa", , "larosafrederic@gmail.com", role = c("cre", "aut")),
+    person("Arthur", "Bréant", , "breant.arthur@gmail.com", role = "aut")
   )
-Description: A helper to discover and analyze crypto tokens. More to come...
+Description: A helper to discover and analyze crypto tokens. More to
+    come...
 License: MIT + file LICENSE
+URL: https://github.com/FredLaRosa/whispr,
+    https://fredlarosa.github.io/whispr
+BugReports: https://github.com/FredLaRosa/whispr/issues
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.1),
@@ -21,8 +18,3 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
-URL: https://github.com/FredLaRosa/whispr,
-    https://fredlarosa.github.io/whispr
-BugReports: https://github.com/FredLaRosa/whispr/issues
-Suggests: 
-    covr
