@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/FredLaRosa/whispr/workflows/R-CMD-check/badge.svg)](https://github.com/FredLaRosa/whispr/actions)
 [![test-coverage](https://github.com/FredLaRosa/whispr/workflows/test-coverage/badge.svg)](https://github.com/FredLaRosa/whispr/actions)
+[![Codecov test coverage](https://codecov.io/gh/FredLaRosa/whispr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/FredLaRosa/whispr?branch=main)
 [![pkgdown](https://github.com/FredLaRosa/whispr/workflows/pkgdown/badge.svg)](https://github.com/FredLaRosa/whispr/actions)
 <!-- badges: end -->
 
