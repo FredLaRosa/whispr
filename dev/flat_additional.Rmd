@@ -1,0 +1,60 @@
+---
+title: "flat_additional.Rmd empty"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r development, include=FALSE}
+# library(testthat)
+library(coinmarketcapr)
+# coinmarketcapr::setup('YOUR_API_KEY')
+# Setup de la clé API
+```
+
+```{r development-1}
+# Load already included functions
+pkgload::load_all(export_all = FALSE)
+```
+
+# Exploration 
+
+```{r}
+
+```
+
+
+```{r}
+get_crypto_listings()
+```
+
+
+```{r function-fun}
+#' Title
+#'
+#' @return 1
+#' @export
+#'
+#' @examples
+fun <- function() {
+  1
+}
+```
+
+```{r examples-fun}
+fun()
+```
+
+```{r tests-fun}
+test_that("fun works", {
+
+})
+```
+
+
+```{r development-1, eval=FALSE}
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(rmd = "dev/flat_additional.Rmd", name = "Go further")
+```
+
